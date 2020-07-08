@@ -22,9 +22,10 @@ img{
 
 .center{
     margin: 0;
-    position: relative;
+    position: static;
+    text-align: center;
     top: 50%;
-    left: 48.25%;
+    left: 50%;
 }
 
 .red-text{
