@@ -1,19 +1,30 @@
 * {
     margin: 2;
     padding: 0%;
-    background-color: white;
+    background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png)
 }
 h1{
-    background-color: rosybrown;
+    background: rosybrown;
     color: black;
-    text-align: center;
     font-family: Lobster;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    padding: 5px;
 }
 h2{
-    background-color: rosybrown;
+    background: rosybrown;
     color: black;
     text-align: center;
     font-family: Lobster;
+    padding: 5px;
+    margin: 0px;
+}
+h4{
+    color: black;
+    text-align: center;
+    font-family: Lobster;
+    padding: 10px;
 }
 
 .center{
@@ -29,14 +40,32 @@ h2{
     color: black;
     text-align: center;
     font-family: Lobster;
-    font-style: italic;
 }
 
-.red-text2{
+/*.red-text2{
     background-color: rosybrown;
     color: black;
     text-align: center;
     font-family: Lobster;
-    font-style: italic;
     padding: 3%; 
+}*/
+
+#resume{
+    background: rosybrown;
+    color: rgb(172, 67, 67);
+}
+
+#resume:hover{
+    background: rosybrown;
+    color: #fdc08e;
+}
+
+#link{
+    color: rgb(172, 67, 67);
+    text-align: center;
+    font-family: Lobster;
+}
+
+#link:hover{
+    color: #fdc08e;
 }
