@@ -53,6 +53,11 @@
             NUS FinTechSG
 </a>
 </h4>
+<h4>
+    <a id="link" href="#side">
+        Side Projects
+</a>
+</h4>
     </div>
 </div>
 
@@ -136,7 +141,7 @@
     <div class="red-text">
         <h2 id="fintech">NUS FintechSG</h2>
             <h4>This is the first course that I have embarked on to hone my skills in the field of software development, and more specifically in the Fintech sector where technology
-                is rapidly changing the dynamics of banking. In this space, I will share selected mini-projects within the course.
+                is rapidly changing the dynamics of banking. In this space, I will share selected mini-projects that I have worked on during the course.
             </h4>
             <br>
             <h4><u>Redesigning the Paylah! App</u></h4>
@@ -149,20 +154,66 @@
             </div>
             </div>
             <br>
+            <h4><u>CI-CD Project</u></h4>
+            <div class="row">
+            <div class="col-md-8">
+            <h4>Continuous Integration and Continuous Deployment (CI/CD) is an integral part of a programmer's life. The tools that relate to CI/CD are used to ensure a synchronised flow between the development of codes and it's deployment. Here, I explored
+                a few of those tools to get myself in tuned to the daily practices of a developer. I have played out the whole concept by using these tools alongside a small python app that I am working on.
+                <br>
+                Firstly, I utilised git, a version control system that allows for work on the same set of codes without causing conflicts between the the working code and the main code. Secondly, 
+                github actions was used to ensure testing is done on the programme before being deployed. Notifications (telegram and email) were also set for every commit or deployment and it is configured through the yml file and read in github actions. 
+                Notifications are essential as it alerts all members of the team who are working on the code of the latest changes.
+                <br>
+                Lastly, I have incorporated the use of docker with a dockerfile within the project file. This dockerfile, when run, will create a docker image. This means that the deployment process can be easily carried out in different machines despite not having 
+                certain required modules (eg. libraries of python such as requests). 
+                <br>
+                Check out my <a id="link" href="https://github.com/hajimss/CI-CD-Project">github page</a> to view the CI/CD work and have a look at the individual files used to trigger the implemented CI/CD process (eg. yml file and dockerfile).
+            </h4>           
+            </div>
+            <div class="col-md-4">
+                <img src="./images/cicd-tools.jpg" alt="CI-CD Diagram" id="ci-cd" class="img-thumbnail mx-auto">
+            </div>
+            </div>
+            <br>
             <h4><u>AlgoTrading with QuantConnect</u></h4>
             <div class="row">
+                <div class="col-md-4">
+                    <img src="./images/quantconnect.png" alt="QuantConnect logo" id="quantconnect" class="img-thumbnail">
+                </div>
                 <div class="col-md-8">
                     <h4>In groups, we delved into the world of algotrading by using the QuantConnect platform to experiment with an array of alogrithms using equations built around indicators and applying them to historical data using backtesting.
                         Additionally, fundamental analysis was done on a long list of companies to ensure that the algorithms fit the proper portfolio and ensure that there will be high returns that is accopmanied by high Sharpe ratio.
                     </h4>           
                     </div>
-            <div class="col-md-4">
-                <img src="./images/quantconnect.png" alt="QuantConnect logo" id="quantconnect" class="img-thumbnail">
             </div>
-            </div>
-            <i><h5>More Projects Coming Soon!</h5></i>
 
     </div>
+
+    <div>
+        <br>
+        <h2 id="side">Side Projects</h2>
+        <h4>
+            After the Fintech course, I took up more projects independently because computing is a vast field of study that requires constantly learning as there are many components that go into a huge project. Also, I took this time to 
+            practice on the topics that I have already learnt so as to lock in the knowledge.
+        </h4>
+        <br>
+        <h4><u>Flask X MongoDB</u></h4>
+        <div class="row red-text">
+            <div class="col-md-8">
+                <h4>
+                    Flask is a useful web development tool based on python that is becoming increasingly popular for it's easy implementation to create routes for every html template created through the formulation of python functions and using jinja2 as a templating engine. 
+                    <br>
+                    In this project, Flask was used with MongoDB as a database. A noSQL database was used because as of now, the web app does not require high volume of data and data can be easily read and written with this type of structure.
+                    <br>
+                    Check out the codes that go into this app on my <a id="link" href="https://github.com/hajimss/flask-and-mongo">github repository</a> or visit the <a id="link" href="https://hazimisusingflaskandmongo.herokuapp.com/home">web app</a> that I have deployed through heroku.
+                </h4>
+            </div>
+            <div class="col-md-4">
+            <img src="./images/flask.png" class="img-fluid mx-auto d-block" alt="flask">
+        </div>
+        
+        </div>
+        </div>
 
 
         <h2 id="footer" class="red-text">END</h2>
